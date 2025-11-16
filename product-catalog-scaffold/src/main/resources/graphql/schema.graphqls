@@ -1,0 +1,15 @@
+scalar JSON
+type Product {
+  id: ID!
+  sku: String
+  name: String
+  description: String
+  price: Float
+  currency: String
+  available: Boolean
+  metadata: JSON
+}
+type Query {
+  product(id: ID!): Product
+  search(q: String, sku: String, page: Int = 0, size: Int = 10): [Product]
+}
