@@ -1,4 +1,4 @@
-# Product Catalog Service - Scaffold
+# Product Catalog Service - DECODE SOLUTIONS 
 
 This scaffold contains a minimal but complete starting point for the Product Catalog microservice.
 
